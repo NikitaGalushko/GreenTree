@@ -24,8 +24,7 @@ ModelImporter:
       : rotation error = 0.295869 deg\n\t'Neck' : rotation error = 2.899340 deg\n"
     animationImportErrors: 
     animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
-      might lower retargeting quality:\nNote: Activate translation DOF on avatar
-      to improve retargeting quality.\n\t'Chest' is inbetween humanoid transforms
+      might lower retargeting quality:\n\t'Chest' is inbetween humanoid transforms
       and has rotation animation that will be discarded.\n\t'Neck' is inbetween humanoid
       transforms and has rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
@@ -229,6 +228,14 @@ ModelImporter:
         modified: 0
     - boneName: R_Palm
       humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest
+      humanName: Chest
       limit:
         min: {x: 0, y: 0, z: 0}
         max: {x: 0, y: 0, z: 0}

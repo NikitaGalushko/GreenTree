@@ -4002,7 +4002,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3929211795830879748}
-  - component: {fileID: 6946645865016323198}
+  - component: {fileID: 2068814272}
   m_Layer: 0
   m_Name: Male_03_v2
   m_TagString: Untagged
@@ -4113,7 +4113,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &6946645865016323198
+--- !u!95 &2068814272
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -4123,10 +4123,10 @@ Animator:
   m_GameObject: {fileID: 4453090141475859646}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 917dd77a0ff7bd146a220fe07e12d3a6, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 1
+  m_Controller: {fileID: 9100000, guid: a0ceb0b6923f62447af7bf91227b7c19, type: 2}
+  m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1

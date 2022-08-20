@@ -3314,7 +3314,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2793490776414324236}
-  - component: {fileID: 8080678030612913270}
+  - component: {fileID: 1652526107}
   m_Layer: 0
   m_Name: Male_02_v2
   m_TagString: Untagged
@@ -3425,7 +3425,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &8080678030612913270
+--- !u!95 &1652526107
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -3435,10 +3435,10 @@ Animator:
   m_GameObject: {fileID: 3283029171343842486}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 917dd77a0ff7bd146a220fe07e12d3a6, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 1
+  m_Controller: {fileID: 9100000, guid: a0ceb0b6923f62447af7bf91227b7c19, type: 2}
+  m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -8705,17 +8705,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ac9f550e9ac410d4380ce227b05a0622,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.019
+      value: 0.0196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ac9f550e9ac410d4380ce227b05a0622,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.01
+      value: -0.0069
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ac9f550e9ac410d4380ce227b05a0622,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ac9f550e9ac410d4380ce227b05a0622,
         type: 3}
