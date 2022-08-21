@@ -252,6 +252,7 @@ GameObject:
   m_Component:
   - component: {fileID: 594536091381512280}
   - component: {fileID: 6818480314295018018}
+  - component: {fileID: 4387040020007281657}
   m_Layer: 0
   m_Name: Male_04_v3_sf
   m_TagString: Untagged
@@ -381,6 +382,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!136 &4387040020007281657
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219523819990278882}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.4
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.9, z: 0}
 --- !u!1 &313893526475900124
 GameObject:
   m_ObjectHideFlags: 0
