@@ -1,59 +1,155 @@
 fileFormatVersion: 2
 guid: 022b5ba17df4ada46a9aa69ffc0f46bd
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: Chest
-    100004: Head
-    100006: Hips
-    100008: L_Eye
-    100010: L_Foot
-    100012: L_LowerArm
-    100014: L_LowerLeg
-    100016: L_Palm
-    100018: L_UpperArm
-    100020: L_UpperLeg
-    100022: Neck
-    100024: R_Eye
-    100026: R_Foot
-    100028: R_LowerArm
-    100030: R_LowerLeg
-    100032: R_Palm
-    100034: R_UpperArm
-    100036: R_UpperLeg
-    100038: Root
-    100040: Spine
-    400000: //RootNode
-    400002: Chest
-    400004: Head
-    400006: Hips
-    400008: L_Eye
-    400010: L_Foot
-    400012: L_LowerArm
-    400014: L_LowerLeg
-    400016: L_Palm
-    400018: L_UpperArm
-    400020: L_UpperLeg
-    400022: Neck
-    400024: R_Eye
-    400026: R_Foot
-    400028: R_LowerArm
-    400030: R_LowerLeg
-    400032: R_Palm
-    400034: R_UpperArm
-    400036: R_UpperLeg
-    400038: Root
-    400040: Spine
-    7400000: Sadness_jump
-    7400002: Sadness_jump_start
-    7400004: Sadness_jump_midair
-    7400006: Sadness_jump_land
-    9500000: //RootNode
-    2186277476908879412: ImportLogs
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Chest
+  - first:
+      1: 100004
+    second: Head
+  - first:
+      1: 100006
+    second: Hips
+  - first:
+      1: 100008
+    second: L_Eye
+  - first:
+      1: 100010
+    second: L_Foot
+  - first:
+      1: 100012
+    second: L_LowerArm
+  - first:
+      1: 100014
+    second: L_LowerLeg
+  - first:
+      1: 100016
+    second: L_Palm
+  - first:
+      1: 100018
+    second: L_UpperArm
+  - first:
+      1: 100020
+    second: L_UpperLeg
+  - first:
+      1: 100022
+    second: Neck
+  - first:
+      1: 100024
+    second: R_Eye
+  - first:
+      1: 100026
+    second: R_Foot
+  - first:
+      1: 100028
+    second: R_LowerArm
+  - first:
+      1: 100030
+    second: R_LowerLeg
+  - first:
+      1: 100032
+    second: R_Palm
+  - first:
+      1: 100034
+    second: R_UpperArm
+  - first:
+      1: 100036
+    second: R_UpperLeg
+  - first:
+      1: 100038
+    second: Root
+  - first:
+      1: 100040
+    second: Spine
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Chest
+  - first:
+      4: 400004
+    second: Head
+  - first:
+      4: 400006
+    second: Hips
+  - first:
+      4: 400008
+    second: L_Eye
+  - first:
+      4: 400010
+    second: L_Foot
+  - first:
+      4: 400012
+    second: L_LowerArm
+  - first:
+      4: 400014
+    second: L_LowerLeg
+  - first:
+      4: 400016
+    second: L_Palm
+  - first:
+      4: 400018
+    second: L_UpperArm
+  - first:
+      4: 400020
+    second: L_UpperLeg
+  - first:
+      4: 400022
+    second: Neck
+  - first:
+      4: 400024
+    second: R_Eye
+  - first:
+      4: 400026
+    second: R_Foot
+  - first:
+      4: 400028
+    second: R_LowerArm
+  - first:
+      4: 400030
+    second: R_LowerLeg
+  - first:
+      4: 400032
+    second: R_Palm
+  - first:
+      4: 400034
+    second: R_UpperArm
+  - first:
+      4: 400036
+    second: R_UpperLeg
+  - first:
+      4: 400038
+    second: Root
+  - first:
+      4: 400040
+    second: Spine
+  - first:
+      74: 7400000
+    second: Sadness_jump
+  - first:
+      74: 7400002
+    second: Sadness_jump_start
+  - first:
+      74: 7400004
+    second: Sadness_jump_midair
+  - first:
+      74: 7400006
+    second: Sadness_jump_land
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects: {}
   materials:
-    importMaterials: 0
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -63,13 +159,11 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
+    rigImportErrors: "Copied Avatar Rig Configuration mis-match. Transform hierarchy
+      does not match:\n\tTransform 'L_Eye' for human bone 'LeftEye' not found\n"
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
-      might lower retargeting quality:\n\t'L_LowerLeg' has scale animation that will
-      be discarded.\n\t'L_Foot' has scale animation that will be discarded.\n\t'R_Foot'
-      has scale animation that will be discarded.\n"
+    animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -85,6 +179,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Sadness_jump
       takeName: Take 001
+      internalID: 0
       firstFrame: 290
       lastFrame: 318
       wrapMode: 0
@@ -113,6 +208,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Sadness_jump_start
       takeName: Take 001
+      internalID: 0
       firstFrame: 290
       lastFrame: 300
       wrapMode: 0
@@ -141,6 +237,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Sadness_jump_midair
       takeName: Take 001
+      internalID: 0
       firstFrame: 300
       lastFrame: 301
       wrapMode: 0
@@ -169,6 +266,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Sadness_jump_land
       takeName: Take 001
+      internalID: 0
       firstFrame: 301
       lastFrame: 318
       wrapMode: 0
@@ -201,25 +299,32 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -228,10 +333,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 1
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human:
     - boneName: Hips
       humanName: Hips
@@ -361,22 +466,6 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: L_Eye
-      humanName: LeftEye
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: R_Eye
-      humanName: RightEye
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
     - boneName: Chest
       humanName: Chest
       limit:
@@ -394,104 +483,114 @@ ModelImporter:
     - name: Root
       parentName: Sadness(Clone)
       position: {x: 3.2211247e-16, y: 0.0000000019642323, z: -0.0000000021332542}
-      rotation: {x: -0.7071068, y: 0.00000002779885, z: 0.000000027798917, w: 0.7071068}
+      rotation: {x: -0.7071068, y: 0.000000027798864, z: 0.000000027798912, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
     - name: Hips
       parentName: Root
-      position: {x: 0.000000004246786, y: -0.00663454, z: 0.7399973}
-      rotation: {x: 0.7071069, y: -0.00000009172065, z: -0.70710665, w: -0.000000091720686}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Spine
-      parentName: Hips
-      position: {x: -0.089400634, y: -0.008552365, z: -0.000000013319085}
-      rotation: {x: -0.00000029855528, y: 0.000013102207, z: -0.02886798, w: 0.99958324}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Chest
-      parentName: Spine
-      position: {x: -0.3005178, y: 0, z: 2.3283064e-12}
-      rotation: {x: 0.00000018284264, y: -0.000013224811, z: 0.02886817, w: 0.99958324}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Neck
-      parentName: Chest
-      position: {x: -0.13650359, y: -0.006471926, z: -0.0000005226844}
-      rotation: {x: -0.0000047072836, y: -0.00002079151, z: -0.08005343, w: 0.9967906}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Head
-      parentName: Neck
-      position: {x: -0.058498457, y: 0, z: 4.6566128e-12}
-      rotation: {x: 0.0000046116593, y: 0.000020679188, z: 0.080053516, w: 0.9967906}
-      scale: {x: 1, y: 1, z: 1}
-    - name: L_Eye
-      parentName: Head
-      position: {x: -0.21683747, y: 0.14046028, z: 0.088474326}
-      rotation: {x: -2.763363e-14, y: -0.00000007586154, z: -0.7071068, w: 0.7071068}
-      scale: {x: 1, y: 1, z: 1}
-    - name: R_Eye
-      parentName: Head
-      position: {x: -0.21683747, y: 0.14046028, z: -0.08847435}
-      rotation: {x: 3.0145777e-14, y: 0.000000075861536, z: -0.7071068, w: 0.7071068}
-      scale: {x: 1, y: 1, z: 1}
-    - name: L_UpperArm
-      parentName: Chest
-      position: {x: -0.02994751, y: -0.0070477244, z: 0.26911515}
-      rotation: {x: -0.0006407952, y: 0.70661503, z: 0.0056135836, w: 0.7075757}
-      scale: {x: 1, y: 1, z: 1}
-    - name: L_LowerArm
-      parentName: L_UpperArm
-      position: {x: -0.34976053, y: -0.00000019550323, z: -0.00000022888183}
-      rotation: {x: 0.00039983276, y: 0.007632232, z: -0.0051272386, w: 0.9999577}
-      scale: {x: 1, y: 1, z: 1}
-    - name: L_Palm
-      parentName: L_LowerArm
-      position: {x: -0.31179652, y: -0.00000017523764, z: -0.00000015258789}
-      rotation: {x: -0.70988667, y: 0.022980137, z: 0.016268564, w: 0.70375293}
-      scale: {x: 1, y: 1, z: 1}
-    - name: R_UpperArm
-      parentName: Chest
-      position: {x: -0.02994766, y: -0.0070475005, z: -0.26911518}
-      rotation: {x: 0.00064633676, y: -0.7066151, z: 0.005618426, w: 0.7075755}
-      scale: {x: 1, y: 1, z: 1}
-    - name: R_LowerArm
-      parentName: R_UpperArm
-      position: {x: -0.3497605, y: 0.00000019550323, z: -0.00000015258789}
-      rotation: {x: -0.00039985625, y: -0.0076328916, z: -0.0051277964, w: 0.9999577}
-      scale: {x: 1, y: 1, z: 1}
-    - name: R_Palm
-      parentName: R_LowerArm
-      position: {x: -0.3117965, y: 0.00000017166137, z: -0.00000022888183}
-      rotation: {x: 0.70988685, y: -0.0229784, z: 0.01626849, w: 0.7037528}
+      position: {x: 0.0000000042467674, y: -0.00663454, z: 0.7399973}
+      rotation: {x: 0.7071069, y: -0.00000007064723, z: -0.70710665, w: -0.00000007064725}
       scale: {x: 1, y: 1, z: 1}
     - name: L_UpperLeg
       parentName: Hips
-      position: {x: 0.11903999, y: -0.007851799, z: 0.11536189}
-      rotation: {x: -0.007421102, y: 0.9999675, z: 0.0011165461, w: -0.0029388661}
+      position: {x: 0.11903999, y: -0.0078518065, z: 0.11536188}
+      rotation: {x: -0.007397986, y: 0.9999677, z: 0.0011167875, w: -0.0029386787}
       scale: {x: 1, y: 1, z: 1}
     - name: L_LowerLeg
       parentName: L_UpperLeg
-      position: {x: -0.26005146, y: 0.0000003993511, z: 0.0000007534027}
-      rotation: {x: 0.004140032, y: 0.000016890459, z: 0.017161472, w: 0.9998442}
-      scale: {x: 1.000002, y: 0.999998, z: 1}
+      position: {x: -0.2600515, y: 0.000003633499, z: 0.0000005340576}
+      rotation: {x: 0.00413229, y: 0.00028367914, z: 0.017481545, w: 0.99983865}
+      scale: {x: 0.999998, y: 1.000002, z: 1}
     - name: L_Foot
       parentName: L_LowerLeg
-      position: {x: -0.2811534, y: 0, z: -0.000000009536743}
-      rotation: {x: -0.00048408573, y: -0.0043388736, z: -0.6591855, w: 0.75196767}
-      scale: {x: 1.000008, y: 0.999991, z: 1}
+      position: {x: -0.28115347, y: 5.9604643e-10, z: 0.000000019073486}
+      rotation: {x: -0.00062338123, y: -0.004900203, z: -0.65955245, w: 0.75164235}
+      scale: {x: 0.999991, y: 1.000009, z: 1}
+    - name: Spine
+      parentName: Hips
+      position: {x: -0.089400634, y: -0.008552348, z: -0.0000000036811991}
+      rotation: {x: -0.0000002700622, y: 0.000013133277, z: -0.028868042, w: 0.99958324}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chest
+      parentName: Spine
+      position: {x: -0.3005178, y: 0, z: 0}
+      rotation: {x: 0.00000038577497, y: -0.000013010677, z: 0.028867852, w: 0.99958324}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck
+      parentName: Chest
+      position: {x: -0.13650359, y: -0.0064717554, z: -0.00000041417718}
+      rotation: {x: -0.0000044969734, y: -0.000020563524, z: -0.08005383, w: 0.9967905}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: Neck
+      position: {x: -0.058498457, y: 0, z: 0}
+      rotation: {x: 0.0000045925863, y: 0.00002067585, z: 0.08005355, w: 0.9967906}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_UpperArm
+      parentName: Chest
+      position: {x: -0.029947737, y: -0.0070474637, z: 0.26911515}
+      rotation: {x: -0.0006465272, y: 0.7066151, z: 0.005618616, w: 0.7075756}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_LowerArm
+      parentName: L_UpperArm
+      position: {x: -0.3497605, y: 0.00000019311905, z: 0.00000030517577}
+      rotation: {x: 0.00039981928, y: 0.007632952, z: -0.0051277974, w: 0.9999577}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_Palm
+      parentName: L_LowerArm
+      position: {x: -0.3117965, y: 0.00000017523764, z: 0.00000022888183}
+      rotation: {x: -0.7098869, y: 0.022978446, z: 0.01626854, w: 0.70375276}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_UpperArm
+      parentName: Chest
+      position: {x: -0.029947434, y: -0.0070476877, z: -0.26911515}
+      rotation: {x: 0.000641017, y: -0.7066151, z: 0.005613805, w: 0.7075756}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_LowerArm
+      parentName: R_UpperArm
+      position: {x: -0.3497605, y: -0.00000019073485, z: 0.00000022888183}
+      rotation: {x: -0.0003997839, y: -0.007632233, z: -0.005127241, w: 0.9999577}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_Palm
+      parentName: R_LowerArm
+      position: {x: -0.3117965, y: -0.00000017404555, z: 0.00000015258789}
+      rotation: {x: 0.7098867, y: -0.022980176, z: 0.01626861, w: 0.7037529}
+      scale: {x: 1, y: 1, z: 1}
     - name: R_UpperLeg
       parentName: Hips
-      position: {x: 0.11903999, y: -0.007851785, z: -0.11536187}
-      rotation: {x: -0.0073980317, y: 0.9999677, z: -0.0011167886, w: 0.0029387462}
+      position: {x: 0.11903999, y: -0.007851821, z: -0.11536188}
+      rotation: {x: -0.007422419, y: 0.9999675, z: -0.0011165512, w: 0.0029389346}
       scale: {x: 1, y: 1, z: 1}
     - name: R_LowerLeg
       parentName: R_UpperLeg
-      position: {x: -0.2600515, y: 0.000003632307, z: -0.0000005340576}
-      rotation: {x: -0.0041327584, y: -0.0002568384, z: 0.016689904, w: 0.9998522}
-      scale: {x: 0.999998, y: 1.000002, z: 1}
+      position: {x: -0.26005146, y: 0.00000039756299, z: -0.00000074386594}
+      rotation: {x: -0.004140033, y: -0.00001672348, z: 0.017170796, w: 0.999844}
+      scale: {x: 1.000002, y: 0.999998, z: 1}
     - name: R_Foot
       parentName: R_LowerLeg
-      position: {x: -0.2811534, y: -5.9604643e-10, z: 0}
-      rotation: {x: 0.00059495936, y: 0.004826301, z: -0.6588209, w: 0.7522841}
-      scale: {x: 0.999991, y: 1.000009, z: 1}
-    - name: Sadness
+      position: {x: -0.2811534, y: 0, z: 0.000000009536743}
+      rotation: {x: 0.00048422304, y: 0.0043387506, z: -0.6591915, w: 0.7519625}
+      scale: {x: 1.000008, y: 0.999991, z: 1}
+    - name: Sadness_01
+      parentName: Sadness(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sadness_02
+      parentName: Sadness(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sadness_03
+      parentName: Sadness(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sadness_04
+      parentName: Sadness(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sadness_05
       parentName: Sadness(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
@@ -503,14 +602,18 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 1
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 79ae795d6d52ca841844cf71be0d9d3c,
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: c37f694d88f93de4e98d56bc63a7655c,
     type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

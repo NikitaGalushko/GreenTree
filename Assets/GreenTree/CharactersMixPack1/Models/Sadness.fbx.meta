@@ -1,129 +1,14 @@
 fileFormatVersion: 2
-guid: fc2e828085c5c3f49b3b3fc4b60ecd24
+guid: c37f694d88f93de4e98d56bc63a7655c
 ModelImporter:
   serializedVersion: 20200
-  internalIDToNameTable:
+  internalIDToNameTable: []
+  externalObjects:
   - first:
-      1: 100000
-    second: //RootNode
-  - first:
-      1: 100002
-    second: Chest
-  - first:
-      1: 100004
-    second: Head
-  - first:
-      1: 100006
-    second: Hips
-  - first:
-      1: 100008
-    second: L_Foot
-  - first:
-      1: 100010
-    second: L_LowerArm
-  - first:
-      1: 100012
-    second: L_LowerLeg
-  - first:
-      1: 100014
-    second: L_Palm
-  - first:
-      1: 100016
-    second: L_UpperArm
-  - first:
-      1: 100018
-    second: L_UpperLeg
-  - first:
-      1: 100020
-    second: Neck
-  - first:
-      1: 100022
-    second: R_Foot
-  - first:
-      1: 100024
-    second: R_LowerArm
-  - first:
-      1: 100026
-    second: R_LowerLeg
-  - first:
-      1: 100028
-    second: R_Palm
-  - first:
-      1: 100030
-    second: R_UpperArm
-  - first:
-      1: 100032
-    second: R_UpperLeg
-  - first:
-      1: 100034
-    second: Root
-  - first:
-      1: 100036
-    second: Spine
-  - first:
-      4: 400000
-    second: //RootNode
-  - first:
-      4: 400002
-    second: Chest
-  - first:
-      4: 400004
-    second: Head
-  - first:
-      4: 400006
-    second: Hips
-  - first:
-      4: 400008
-    second: L_Foot
-  - first:
-      4: 400010
-    second: L_LowerArm
-  - first:
-      4: 400012
-    second: L_LowerLeg
-  - first:
-      4: 400014
-    second: L_Palm
-  - first:
-      4: 400016
-    second: L_UpperArm
-  - first:
-      4: 400018
-    second: L_UpperLeg
-  - first:
-      4: 400020
-    second: Neck
-  - first:
-      4: 400022
-    second: R_Foot
-  - first:
-      4: 400024
-    second: R_LowerArm
-  - first:
-      4: 400026
-    second: R_LowerLeg
-  - first:
-      4: 400028
-    second: R_Palm
-  - first:
-      4: 400030
-    second: R_UpperArm
-  - first:
-      4: 400032
-    second: R_UpperLeg
-  - first:
-      4: 400034
-    second: Root
-  - first:
-      4: 400036
-    second: Spine
-  - first:
-      74: 7400000
-    second: Ufo_idle
-  - first:
-      95: 9500000
-    second: //RootNode
-  externalObjects: {}
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color
+    second: {fileID: 2100000, guid: 2bc88bb7186bc494ebdc28f0cbc08dd8, type: 2}
   materials:
     materialImportMode: 0
     materialName: 0
@@ -150,37 +35,8 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Ufo_idle
-      takeName: Take 001
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 40
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 1
-      loopBlendPositionY: 1
-      loopBlendPositionXZ: 1
-      keepOriginalOrientation: 1
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 1
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    isReadable: 1
+    clipAnimations: []
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
     globalScale: 1
@@ -192,7 +48,7 @@ ModelImporter:
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    fileIdsGeneration: 1
+    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -208,7 +64,7 @@ ModelImporter:
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
+    secondaryUVMarginMethod: 1
     secondaryUVMinLightmapResolution: 40
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
@@ -222,7 +78,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 1
+  importAnimation: 0
   humanDescription:
     serializedVersion: 3
     human:
@@ -363,123 +219,123 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: Ufo(Clone)
+    - name: Sadness(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Root
-      parentName: Ufo(Clone)
+      parentName: Sadness(Clone)
       position: {x: 3.2211247e-16, y: 0.0000000019642323, z: -0.0000000021332542}
-      rotation: {x: -0.7071068, y: 0.00000002779885, z: 0.000000027798917, w: 0.7071068}
+      rotation: {x: -0.7071068, y: 0.000000027798864, z: 0.000000027798912, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
     - name: Hips
       parentName: Root
-      position: {x: 0.0000000020077038, y: -0.035111777, z: 0.7399973}
-      rotation: {x: 0.7071069, y: -0.00000009172065, z: -0.70710665, w: -0.000000091720686}
+      position: {x: 0.0000000042467674, y: -0.00663454, z: 0.7399973}
+      rotation: {x: 0.7071069, y: -0.00000007064723, z: -0.70710665, w: -0.00000007064725}
       scale: {x: 1, y: 1, z: 1}
-    - name: Spine
-      parentName: Hips
-      position: {x: -0.11439583, y: -0.02315563, z: -0.000000017494134}
-      rotation: {x: -0.0000021226226, y: 0.000017755046, z: 0.044912256, w: 0.99899095}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Chest
-      parentName: Spine
-      position: {x: -0.21285415, y: 0.000000009536743, z: -2.3283064e-12}
-      rotation: {x: 0.0000019359627, y: -0.000017925655, z: -0.044912018, w: 0.99899095}
-      scale: {x: 1, y: 1, z: 1}
-    - name: L_UpperArm
-      parentName: Chest
-      position: {x: -0.02470932, y: -0.013090671, z: 0.14645916}
-      rotation: {x: -0.0007423932, y: 0.7149597, z: 0.0053602653, w: 0.6991448}
-      scale: {x: 1, y: 1, z: 1}
-    - name: L_LowerArm
-      parentName: L_UpperArm
-      position: {x: -0.28094456, y: -0.0000013262033, z: -0.0000018310546}
-      rotation: {x: 0.00507263, y: 0.012021339, z: -0.0061219265, w: 0.99989617}
-      scale: {x: 1, y: 1, z: 1}
-    - name: L_Palm
-      parentName: L_LowerArm
-      position: {x: -0.20486316, y: -0.0000027799606, z: -0.0000030517576}
-      rotation: {x: -0.7194823, y: -0.003575657, z: 0.008190231, w: 0.6944533}
-      scale: {x: 1, y: 1.000001, z: 0.999999}
-    - name: Neck
-      parentName: Chest
-      position: {x: -0.11858429, y: 0.007492315, z: -0.00000058186936}
-      rotation: {x: -0.0000092403825, y: -0.000016230964, z: -0.18270212, w: 0.9831683}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Head
-      parentName: Neck
-      position: {x: -0.081589736, y: 0, z: 4.6566128e-12}
-      rotation: {x: 0.000009109178, y: 0.00001603986, z: 0.18270232, w: 0.9831683}
-      scale: {x: 1, y: 1, z: 1}
-    - name: R_UpperArm
-      parentName: Chest
-      position: {x: -0.024709396, y: -0.013090478, z: -0.1464592}
-      rotation: {x: 0.000948421, y: -0.71496016, z: 0.0055670864, w: 0.6991424}
-      scale: {x: 1, y: 1, z: 1}
-    - name: R_LowerArm
-      parentName: R_UpperArm
-      position: {x: -0.28094447, y: 0.0000013250112, z: -0.0000018310546}
-      rotation: {x: -0.005071463, y: -0.012032171, z: -0.0061310157, w: 0.999896}
-      scale: {x: 1.000001, y: 1, z: 1}
-    - name: R_Palm
-      parentName: R_LowerArm
-      position: {x: -0.2048635, y: 0.000002772808, z: -0.0000031280517}
-      rotation: {x: 0.7194847, y: 0.003556957, z: 0.008192456, w: 0.694451}
-      scale: {x: 1.000001, y: 0.999999, z: 1}
     - name: L_UpperLeg
       parentName: Hips
-      position: {x: 0.12324745, y: 0.00415071, z: 0.11536197}
-      rotation: {x: 0.0030743543, y: 0.99995273, z: 0.0010731554, w: 0.009165007}
+      position: {x: 0.11903999, y: -0.0078518065, z: 0.11536188}
+      rotation: {x: -0.007397986, y: 0.9999677, z: 0.0011167875, w: -0.0029386787}
       scale: {x: 1, y: 1, z: 1}
     - name: L_LowerLeg
       parentName: L_UpperLeg
-      position: {x: -0.28101104, y: 0.0000011157989, z: 0.00000092506406}
-      rotation: {x: 0.0044777584, y: 0.0013682764, z: 0.14367586, w: 0.9896138}
-      scale: {x: 1, y: 1, z: 1}
+      position: {x: -0.2600515, y: 0.000003633499, z: 0.0000005340576}
+      rotation: {x: 0.00413229, y: 0.00028367914, z: 0.017481545, w: 0.99983865}
+      scale: {x: 0.999998, y: 1.000002, z: 1}
     - name: L_Foot
       parentName: L_LowerLeg
-      position: {x: -0.26936752, y: 0, z: 0.000000009536743}
-      rotation: {x: -0.11179431, y: -0.062053002, z: -0.7493521, w: 0.6497099}
-      scale: {x: 0.999999, y: 1, z: 1}
+      position: {x: -0.28115347, y: 5.9604643e-10, z: 0.000000019073486}
+      rotation: {x: -0.00062338123, y: -0.004900203, z: -0.65955245, w: 0.75164235}
+      scale: {x: 0.999991, y: 1.000009, z: 1}
+    - name: Spine
+      parentName: Hips
+      position: {x: -0.089400634, y: -0.008552348, z: -0.0000000036811991}
+      rotation: {x: -0.0000002700622, y: 0.000013133277, z: -0.028868042, w: 0.99958324}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chest
+      parentName: Spine
+      position: {x: -0.3005178, y: 0, z: 0}
+      rotation: {x: 0.00000038577497, y: -0.000013010677, z: 0.028867852, w: 0.99958324}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck
+      parentName: Chest
+      position: {x: -0.13650359, y: -0.0064717554, z: -0.00000041417718}
+      rotation: {x: -0.0000044969734, y: -0.000020563524, z: -0.08005383, w: 0.9967905}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: Neck
+      position: {x: -0.058498457, y: 0, z: 0}
+      rotation: {x: 0.0000045925863, y: 0.00002067585, z: 0.08005355, w: 0.9967906}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_UpperArm
+      parentName: Chest
+      position: {x: -0.029947737, y: -0.0070474637, z: 0.26911515}
+      rotation: {x: -0.0006465272, y: 0.7066151, z: 0.005618616, w: 0.7075756}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_LowerArm
+      parentName: L_UpperArm
+      position: {x: -0.3497605, y: 0.00000019311905, z: 0.00000030517577}
+      rotation: {x: 0.00039981928, y: 0.007632952, z: -0.0051277974, w: 0.9999577}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_Palm
+      parentName: L_LowerArm
+      position: {x: -0.3117965, y: 0.00000017523764, z: 0.00000022888183}
+      rotation: {x: -0.7098869, y: 0.022978446, z: 0.01626854, w: 0.70375276}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_UpperArm
+      parentName: Chest
+      position: {x: -0.029947434, y: -0.0070476877, z: -0.26911515}
+      rotation: {x: 0.000641017, y: -0.7066151, z: 0.005613805, w: 0.7075756}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_LowerArm
+      parentName: R_UpperArm
+      position: {x: -0.3497605, y: -0.00000019073485, z: 0.00000022888183}
+      rotation: {x: -0.0003997839, y: -0.007632233, z: -0.005127241, w: 0.9999577}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_Palm
+      parentName: R_LowerArm
+      position: {x: -0.3117965, y: -0.00000017404555, z: 0.00000015258789}
+      rotation: {x: 0.7098867, y: -0.022980176, z: 0.01626861, w: 0.7037529}
+      scale: {x: 1, y: 1, z: 1}
     - name: R_UpperLeg
       parentName: Hips
-      position: {x: 0.12324741, y: 0.0041507217, z: -0.11536194}
-      rotation: {x: 0.0030742297, y: 0.99995273, z: -0.0010731703, w: -0.009164932}
+      position: {x: 0.11903999, y: -0.007851821, z: -0.11536188}
+      rotation: {x: -0.007422419, y: 0.9999675, z: -0.0011165512, w: 0.0029389346}
       scale: {x: 1, y: 1, z: 1}
     - name: R_LowerLeg
       parentName: R_UpperLeg
-      position: {x: -0.28101104, y: 0.0000010085106, z: -0.00000092506406}
-      rotation: {x: -0.00447808, y: -0.0013672285, z: 0.14360403, w: 0.9896242}
-      scale: {x: 1.000001, y: 1, z: 1}
+      position: {x: -0.26005146, y: 0.00000039756299, z: -0.00000074386594}
+      rotation: {x: -0.004140033, y: -0.00001672348, z: 0.017170796, w: 0.999844}
+      scale: {x: 1.000002, y: 0.999998, z: 1}
     - name: R_Foot
       parentName: R_LowerLeg
-      position: {x: -0.26936752, y: 0.0000000047683715, z: 0}
-      rotation: {x: 0.111791074, y: 0.06205986, z: -0.7493065, w: 0.64976233}
-      scale: {x: 1.000001, y: 0.999999, z: 1}
-    - name: Ufo_01
-      parentName: Ufo(Clone)
+      position: {x: -0.2811534, y: 0, z: 0.000000009536743}
+      rotation: {x: 0.00048422304, y: 0.0043387506, z: -0.6591915, w: 0.7519625}
+      scale: {x: 1.000008, y: 0.999991, z: 1}
+    - name: Sadness_01
+      parentName: Sadness(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Ufo_02
-      parentName: Ufo(Clone)
+    - name: Sadness_02
+      parentName: Sadness(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Ufo_03
-      parentName: Ufo(Clone)
+    - name: Sadness_03
+      parentName: Sadness(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Ufo_04
-      parentName: Ufo(Clone)
+    - name: Sadness_04
+      parentName: Sadness(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Ufo_05
-      parentName: Ufo(Clone)
+    - name: Sadness_05
+      parentName: Sadness(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -495,13 +351,12 @@ ModelImporter:
     hasTranslationDoF: 1
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: e4f67672ce42606458ad56e0323b18b1,
-    type: 3}
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 2
-  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

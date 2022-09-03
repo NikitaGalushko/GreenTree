@@ -1,128 +1,8 @@
 fileFormatVersion: 2
-guid: fc2e828085c5c3f49b3b3fc4b60ecd24
+guid: ec38beb57e1ef674cbd23f22fa9929ab
 ModelImporter:
   serializedVersion: 20200
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: //RootNode
-  - first:
-      1: 100002
-    second: Chest
-  - first:
-      1: 100004
-    second: Head
-  - first:
-      1: 100006
-    second: Hips
-  - first:
-      1: 100008
-    second: L_Foot
-  - first:
-      1: 100010
-    second: L_LowerArm
-  - first:
-      1: 100012
-    second: L_LowerLeg
-  - first:
-      1: 100014
-    second: L_Palm
-  - first:
-      1: 100016
-    second: L_UpperArm
-  - first:
-      1: 100018
-    second: L_UpperLeg
-  - first:
-      1: 100020
-    second: Neck
-  - first:
-      1: 100022
-    second: R_Foot
-  - first:
-      1: 100024
-    second: R_LowerArm
-  - first:
-      1: 100026
-    second: R_LowerLeg
-  - first:
-      1: 100028
-    second: R_Palm
-  - first:
-      1: 100030
-    second: R_UpperArm
-  - first:
-      1: 100032
-    second: R_UpperLeg
-  - first:
-      1: 100034
-    second: Root
-  - first:
-      1: 100036
-    second: Spine
-  - first:
-      4: 400000
-    second: //RootNode
-  - first:
-      4: 400002
-    second: Chest
-  - first:
-      4: 400004
-    second: Head
-  - first:
-      4: 400006
-    second: Hips
-  - first:
-      4: 400008
-    second: L_Foot
-  - first:
-      4: 400010
-    second: L_LowerArm
-  - first:
-      4: 400012
-    second: L_LowerLeg
-  - first:
-      4: 400014
-    second: L_Palm
-  - first:
-      4: 400016
-    second: L_UpperArm
-  - first:
-      4: 400018
-    second: L_UpperLeg
-  - first:
-      4: 400020
-    second: Neck
-  - first:
-      4: 400022
-    second: R_Foot
-  - first:
-      4: 400024
-    second: R_LowerArm
-  - first:
-      4: 400026
-    second: R_LowerLeg
-  - first:
-      4: 400028
-    second: R_Palm
-  - first:
-      4: 400030
-    second: R_UpperArm
-  - first:
-      4: 400032
-    second: R_UpperLeg
-  - first:
-      4: 400034
-    second: Root
-  - first:
-      4: 400036
-    second: Spine
-  - first:
-      74: 7400000
-    second: Ufo_idle
-  - first:
-      95: 9500000
-    second: //RootNode
+  internalIDToNameTable: []
   externalObjects: {}
   materials:
     materialImportMode: 0
@@ -150,37 +30,8 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Ufo_idle
-      takeName: Take 001
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 40
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 1
-      loopBlendPositionY: 1
-      loopBlendPositionXZ: 1
-      keepOriginalOrientation: 1
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 1
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    isReadable: 1
+    clipAnimations: []
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
     globalScale: 1
@@ -192,7 +43,7 @@ ModelImporter:
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    fileIdsGeneration: 1
+    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -208,7 +59,7 @@ ModelImporter:
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
+    secondaryUVMarginMethod: 1
     secondaryUVMinLightmapResolution: 40
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
@@ -222,7 +73,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 1
+  importAnimation: 0
   humanDescription:
     serializedVersion: 3
     human:
@@ -363,13 +214,13 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: Ufo(Clone)
+    - name: Ufo_multi_materials(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Root
-      parentName: Ufo(Clone)
+      parentName: Ufo_multi_materials(Clone)
       position: {x: 3.2211247e-16, y: 0.0000000019642323, z: -0.0000000021332542}
       rotation: {x: -0.7071068, y: 0.00000002779885, z: 0.000000027798917, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
@@ -458,28 +309,8 @@ ModelImporter:
       position: {x: -0.26936752, y: 0.0000000047683715, z: 0}
       rotation: {x: 0.111791074, y: 0.06205986, z: -0.7493065, w: 0.64976233}
       scale: {x: 1.000001, y: 0.999999, z: 1}
-    - name: Ufo_01
-      parentName: Ufo(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Ufo_02
-      parentName: Ufo(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Ufo_03
-      parentName: Ufo(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Ufo_04
-      parentName: Ufo(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Ufo_05
-      parentName: Ufo(Clone)
+    - name: Ufo
+      parentName: Ufo_multi_materials(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -495,13 +326,12 @@ ModelImporter:
     hasTranslationDoF: 1
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: e4f67672ce42606458ad56e0323b18b1,
-    type: 3}
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 2
-  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
