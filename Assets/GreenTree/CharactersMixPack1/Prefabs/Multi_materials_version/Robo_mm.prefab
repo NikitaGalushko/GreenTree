@@ -178,8 +178,8 @@ SkinnedMeshRenderer:
   - {fileID: 2100000, guid: 56c7fb9e1cc913b4091f1c49bd735ac4, type: 2}
   - {fileID: 2100000, guid: 7dd3122f888c0d64391b127d35c9efa5, type: 2}
   - {fileID: 2100000, guid: 112fe5eef7a07444caf30af371754fd6, type: 2}
-  - {fileID: 2100000, guid: b3c4b7acfc818a645b63565233215227, type: 2}
-  - {fileID: 2100000, guid: e4e6bfda03468154d9e2863633a95157, type: 2}
+  - {fileID: 2100000, guid: b3c8d4a3453081046b1f48ca05811262, type: 2}
+  - {fileID: 2100000, guid: 7c1d479e08597bd479aa55f291387e7e, type: 2}
   - {fileID: 2100000, guid: 2ecb637ad4a4b9a4fa8cc0500ff12e57, type: 2}
   - {fileID: 2100000, guid: 7b217d87d348cd742b7a8ba6fe1fa8de, type: 2}
   m_StaticBatchInfo:
