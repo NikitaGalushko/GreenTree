@@ -1,20 +1,11 @@
 fileFormatVersion: 2
-guid: 7c477c74235b49c469085ac0560e6a38
+guid: bf59fc3728c27f946bc45dc417d0ef35
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
       74: 1827226128182048838
-    second: Dude_jump
-  - first:
-      74: 4239145586624460484
-    second: Dude_jump_start
-  - first:
-      74: 2454734568815330211
-    second: Dude_jump_midair
-  - first:
-      74: 2712609947267933762
-    second: Dude_jump_land
+    second: Nightmare_get_hit
   externalObjects: {}
   materials:
     materialImportMode: 0
@@ -30,9 +21,7 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
-      might lower retargeting quality:\n\t'L_Palm' has scale animation that will
-      be discarded.\n"
+    animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -46,11 +35,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Dude_jump
+      name: Nightmare_get_hit
       takeName: Take 001
       internalID: 0
-      firstFrame: 290
-      lastFrame: 318
+      firstFrame: 400
+      lastFrame: 429
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -73,94 +62,7 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 290
-    - serializedVersion: 16
-      name: Dude_jump_start
-      takeName: Take 001
-      internalID: 0
-      firstFrame: 290
-      lastFrame: 300
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 1
-      loopBlendPositionY: 1
-      loopBlendPositionXZ: 1
-      keepOriginalOrientation: 1
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 1
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 290
-    - serializedVersion: 16
-      name: Dude_jump_midair
-      takeName: Take 001
-      internalID: 0
-      firstFrame: 300
-      lastFrame: 301
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 1
-      loopBlendPositionY: 1
-      loopBlendPositionXZ: 1
-      keepOriginalOrientation: 1
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 1
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 290
-    - serializedVersion: 16
-      name: Dude_jump_land
-      takeName: Take 001
-      internalID: 0
-      firstFrame: 301
-      lastFrame: 318
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 1
-      loopBlendPositionY: 1
-      loopBlendPositionXZ: 1
-      keepOriginalOrientation: 1
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 1
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 290
+      additiveReferencePoseFrame: 399.9
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -344,128 +246,148 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: Dude(Clone)
+    - name: Nightmare(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Root
-      parentName: Dude(Clone)
-      position: {x: 2.9432844e-16, y: 0.0000000017525441, z: -0.0000000019492488}
+      parentName: Nightmare(Clone)
+      position: {x: 3.2211242e-16, y: 0.0000000015851739, z: -0.0000000021332542}
       rotation: {x: -0.7071068, y: 0.00000002779885, z: 0.000000027798917, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
     - name: Hips
       parentName: Root
-      position: {x: 0.0000000020077093, y: -0.03511178, z: 0.8016358}
-      rotation: {x: 0.707107, y: -0.00000007350407, z: -0.70710665, w: -0.000000057601195}
-      scale: {x: 1.0000014, y: 1.0000014, z: 1.0000013}
+      position: {x: 0.0000000036839438, y: -0.013792852, z: 0.68525046}
+      rotation: {x: 0.7071069, y: -0.00000009172065, z: -0.70710665, w: -0.000000091720686}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_UpperLeg
+      parentName: Hips
+      position: {x: -0.0034898375, y: -0.0031809972, z: 0.12566951}
+      rotation: {x: 0.01067494, y: 0.9998185, z: 0.0009981014, w: 0.01574715}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_LowerLeg
+      parentName: L_UpperLeg
+      position: {x: -0.26680598, y: 0.0000006479025, z: 0.0000016498566}
+      rotation: {x: 0.0019515232, y: -0.00076389307, z: 0.000776015, w: 0.9999975}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_Foot
+      parentName: L_LowerLeg
+      position: {x: -0.35460803, y: 0, z: 0.000000009536743}
+      rotation: {x: -0.07017759, y: -0.038086463, z: -0.6618052, w: 0.7454116}
+      scale: {x: 1, y: 1, z: 1}
     - name: Spine
       parentName: Hips
-      position: {x: -0.07123329, y: -0.016848968, z: -0.0000000024282747}
-      rotation: {x: -0.000001169741, y: 0.000013534771, z: 0.04873623, w: 0.9988117}
-      scale: {x: 0.9999998, y: 0.9999998, z: 0.9999996}
+      position: {x: -0.09679161, y: -0.017755298, z: -0.0000000180677}
+      rotation: {x: -0.0000070625833, y: -0.000021343778, z: 0.027842768, w: 0.99961233}
+      scale: {x: 1, y: 1, z: 1}
     - name: Chest
       parentName: Spine
-      position: {x: -0.2467131, y: 0, z: -2.3283064e-12}
-      rotation: {x: 0.0000010877848, y: -0.000013679266, z: -0.048736274, w: 0.9988117}
-      scale: {x: 1.0000007, y: 1.0000008, z: 1.0000011}
-    - name: Neck
-      parentName: Chest
-      position: {x: -0.16244522, y: -0.021456296, z: -0.00000061559723}
-      rotation: {x: 0.000009894371, y: 0.0000141859055, z: 0.0521269, w: -0.99864054}
-      scale: {x: 1.0000005, y: 1.0000007, z: 0.99999994}
-    - name: Head
-      parentName: Neck
-      position: {x: -0.09534683, y: 0, z: 4.6566128e-12}
-      rotation: {x: -0.000009983778, y: -0.000014156103, z: -0.052126944, w: -0.9986405}
-      scale: {x: 1.0000007, y: 1.0000005, z: 1.0000015}
-    - name: Dude_glass_011
-      parentName: Head
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: -0.4999999, y: 0.50000006, z: 0.49999985, w: 0.5000002}
+      position: {x: -0.29301643, y: 0.0000000047683715, z: 2.3283064e-12}
+      rotation: {x: 0.0000070013425, y: 0.000021285854, z: -0.027842674, w: 0.99961233}
       scale: {x: 1, y: 1, z: 1}
     - name: L_UpperArm
       parentName: Chest
-      position: {x: -0.065485306, y: -0.013091249, z: 0.18121757}
-      rotation: {x: 0.025903814, y: 0.71051675, z: 0.031837884, w: 0.7024823}
-      scale: {x: 1.0000001, y: 1.0000007, z: 1.0000007}
+      position: {x: -0.028128738, y: -0.01446572, z: 0.17902316}
+      rotation: {x: 0.0030877525, y: 0.7187091, z: 0.008945511, w: 0.69524646}
+      scale: {x: 1, y: 1, z: 1}
     - name: L_LowerArm
       parentName: L_UpperArm
-      position: {x: -0.24794221, y: 5.9604643e-10, z: 0.000000076293944}
-      rotation: {x: 0.0050611873, y: 0.000037878744, z: -0.061775114, w: 0.9980773}
-      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+      position: {x: -0.2614742, y: 0.000000007152557, z: 0.000000076293944}
+      rotation: {x: 0.026622048, y: 0.0013798787, z: -0.015577802, w: 0.9995232}
+      scale: {x: 1, y: 1, z: 1}
     - name: L_Palm
       parentName: L_LowerArm
-      position: {x: -0.24506298, y: -0.00000011920929, z: 0.0000003814697}
-      rotation: {x: -0.7193348, y: 0.0002448509, z: 0.014432634, w: 0.69451356}
-      scale: {x: 1, y: 0.99999994, z: 1.0000006}
+      position: {x: -0.21413349, y: 0.0000011825562, z: -0.000000076293944}
+      rotation: {x: -0.71917415, y: 0.0024014574, z: 0.0038962702, w: 0.69481486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck
+      parentName: Chest
+      position: {x: -0.12883598, y: 0.010744023, z: -0.00000034336816}
+      rotation: {x: -0.000010406438, y: -0.000008201441, z: -0.088180624, w: 0.9961045}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: Neck
+      position: {x: -0.0794236, y: -0.000000019073486, z: 1.1641532e-12}
+      rotation: {x: 0.000008551593, y: 0.000010019994, z: -0.11045923, w: 0.9938807}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nightmare_mask_04
+      parentName: Head
+      position: {x: -0.23435698, y: 0.202464, z: 0.000014190675}
+      rotation: {x: 0.5889693, y: -0.39129946, z: -0.58896905, w: -0.39129958}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nightmare_mask_03
+      parentName: Head
+      position: {x: -0.23435698, y: 0.202464, z: 0.000014152528}
+      rotation: {x: 0.5889693, y: -0.39129946, z: -0.58896905, w: -0.39129958}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nightmare_mask_02
+      parentName: Head
+      position: {x: -0.23435698, y: 0.202464, z: 0.000014190675}
+      rotation: {x: 0.5889693, y: -0.39129946, z: -0.58896905, w: -0.39129958}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nightmare_mask_01
+      parentName: Head
+      position: {x: -0.23435698, y: 0.202464, z: 0.000014190675}
+      rotation: {x: 0.5889693, y: -0.39129946, z: -0.58896905, w: -0.39129958}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hood
+      parentName: Head
+      position: {x: -0.34481382, y: -0.3851261, z: 0.000000041318124}
+      rotation: {x: 3.7844477e-14, y: 0.00000009245951, z: 0.8618168, w: 0.5072197}
+      scale: {x: 1, y: 1, z: 1}
     - name: R_UpperArm
       parentName: Chest
-      position: {x: -0.06548538, y: -0.013091097, z: -0.18121761}
-      rotation: {x: 0.02590383, y: 0.71051687, z: -0.031838022, w: -0.70248216}
-      scale: {x: 1.0000025, y: 1.0000011, z: 1.0000008}
+      position: {x: -0.028128738, y: -0.014465658, z: -0.17902316}
+      rotation: {x: -0.0030882962, y: -0.7187091, z: 0.008944846, w: 0.6952466}
+      scale: {x: 1, y: 1, z: 1}
     - name: R_LowerArm
       parentName: R_UpperArm
-      position: {x: -0.24794215, y: 0.000000005364418, z: -0.000000076293944}
-      rotation: {x: -0.0050611706, y: -0.00003769993, z: -0.061775148, w: 0.99807733}
-      scale: {x: 1.000002, y: 1.0000007, z: 1.0000011}
+      position: {x: -0.2614741, y: -0.000000011920928, z: 0}
+      rotation: {x: -0.026622046, y: -0.0013797557, z: -0.015575016, w: 0.9995233}
+      scale: {x: 1, y: 1, z: 1}
     - name: R_Palm
       parentName: R_LowerArm
-      position: {x: -0.24506293, y: -0.00000012397766, z: -0.00000030517577}
-      rotation: {x: 0.7193344, y: -0.0002438692, z: 0.014432838, w: 0.694514}
-      scale: {x: 1.0000037, y: 1.0000015, z: 1.0000032}
-    - name: L_UpperLeg
-      parentName: Hips
-      position: {x: 0.064838864, y: 0.003063104, z: 0.1153618}
-      rotation: {x: 0.01582513, y: 0.99985623, z: 0.0041979775, w: -0.004406868}
-      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000004}
-    - name: L_LowerLeg
-      parentName: L_UpperLeg
-      position: {x: -0.31376204, y: -0.0000003814697, z: 0.0000009536743}
-      rotation: {x: 0.0029033571, y: -0.004869193, z: 0.060665175, w: 0.9981421}
-      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
-    - name: L_Foot
-      parentName: L_LowerLeg
-      position: {x: -0.35816753, y: -0.0000000047683715, z: 0}
-      rotation: {x: -0.06835914, y: -0.050254494, z: -0.709794, w: 0.6992811}
-      scale: {x: 1.0000008, y: 0.9999986, z: 1.0000004}
+      position: {x: -0.21413341, y: -0.0000012016296, z: 0}
+      rotation: {x: 0.7191741, y: -0.0023975265, z: 0.003900172, w: 0.69481486}
+      scale: {x: 1, y: 1, z: 1}
     - name: R_UpperLeg
       parentName: Hips
-      position: {x: 0.064838864, y: 0.0030630897, z: -0.115361825}
-      rotation: {x: 0.015825046, y: 0.9998563, z: -0.0041977586, w: 0.004407376}
-      scale: {x: 1.000001, y: 1.0000008, z: 1.0000008}
+      position: {x: -0.0034898375, y: -0.003180983, z: -0.12566948}
+      rotation: {x: 0.010615771, y: 0.99981976, z: -0.0009975814, w: -0.01570995}
+      scale: {x: 1, y: 1, z: 1}
     - name: R_LowerLeg
       parentName: R_UpperLeg
-      position: {x: -0.3137621, y: -0.00000037431715, z: -0.0000009346008}
-      rotation: {x: -0.002905503, y: 0.0049075778, z: 0.060655758, w: 0.9981424}
-      scale: {x: 0.99999994, y: 0.9999996, z: 0.99999994}
+      position: {x: -0.26680595, y: 0.00000043213367, z: -0.000000705719}
+      rotation: {x: -0.0019514194, y: 0.0009398236, z: 0.0009444086, w: 0.9999972}
+      scale: {x: 1, y: 1, z: 1}
     - name: R_Foot
       parentName: R_LowerLeg
-      position: {x: -0.3581675, y: 0.0000000047683715, z: 0}
-      rotation: {x: 0.06826371, y: 0.05010721, z: -0.7097938, w: 0.69930124}
-      scale: {x: 1.0000015, y: 0.9999985, z: 1.0000013}
-    - name: Dude_01
-      parentName: Dude(Clone)
+      position: {x: -0.35460806, y: 5.9604643e-10, z: 0.000000009536743}
+      rotation: {x: 0.070157774, y: 0.037848588, z: -0.6618933, w: 0.7453474}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nightmare_01
+      parentName: Nightmare(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Dude_02
-      parentName: Dude(Clone)
+    - name: Nightmare_02
+      parentName: Nightmare(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Dude_03
-      parentName: Dude(Clone)
+    - name: Nightmare_03
+      parentName: Nightmare(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Dude_04
-      parentName: Dude(Clone)
+    - name: Nightmare_04
+      parentName: Nightmare(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Dude_05
-      parentName: Dude(Clone)
+    - name: Nightmare_05
+      parentName: Nightmare(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -481,7 +403,7 @@ ModelImporter:
     hasTranslationDoF: 1
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 896dc93d966bd154eafaacc791e9ec58,
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: c5bcd911ab49e21428a02af727590eea,
     type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
