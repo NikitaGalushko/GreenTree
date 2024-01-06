@@ -774,7 +774,7 @@ PrefabInstance:
     - target: {fileID: 7682382940765863012, guid: 9af33c4ab53fd9b47a9c238af57e5333,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9af33c4ab53fd9b47a9c238af57e5333, type: 3}
@@ -844,6 +844,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Vision_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592102101736624344, guid: 60bbb92cdbaa4a846a1fb5d187ae5b65,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60bbb92cdbaa4a846a1fb5d187ae5b65, type: 3}
@@ -1628,7 +1633,7 @@ PrefabInstance:
     - target: {fileID: 7682382940765863012, guid: 9af33c4ab53fd9b47a9c238af57e5333,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9af33c4ab53fd9b47a9c238af57e5333, type: 3}
@@ -1963,14 +1968,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245647504}
-  m_LocalRotation: {x: 0.34611663, y: -0, z: -0, w: 0.9381915}
-  m_LocalPosition: {x: 0, y: 6.63, z: -8.12}
+  m_LocalRotation: {x: 0.22069725, y: -0, z: -0, w: 0.9753424}
+  m_LocalPosition: {x: 0, y: 4.55, z: -8.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 40.5, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 25.5, y: 0, z: 0}
 --- !u!114 &1245647508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2854,7 +2859,7 @@ PrefabInstance:
     - target: {fileID: 7682382940765863012, guid: 9af33c4ab53fd9b47a9c238af57e5333,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9af33c4ab53fd9b47a9c238af57e5333, type: 3}
@@ -3123,6 +3128,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Vision_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 592102101736624344, guid: 60bbb92cdbaa4a846a1fb5d187ae5b65,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60bbb92cdbaa4a846a1fb5d187ae5b65, type: 3}
@@ -3414,6 +3424,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Vision_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592102101736624344, guid: 60bbb92cdbaa4a846a1fb5d187ae5b65,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60bbb92cdbaa4a846a1fb5d187ae5b65, type: 3}
