@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8ac6219f5b9bb9c4689a83ad12978325
+guid: b544740a1dfc3aa4f86463e2cf0e90ba
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -36,8 +36,8 @@ ModelImporter:
       name: Vision@attack
       takeName: Take 001
       internalID: 1827226128182048838
-      firstFrame: 310
-      lastFrame: 330
+      firstFrame: 260
+      lastFrame: 285
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
